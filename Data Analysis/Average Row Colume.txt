@@ -1,0 +1,9 @@
+import pandas
+import matplotlib.pyplot as plt
+try:
+    from sklearn.linear_model import LinearRegression
+    data = pandas.read_csv('EE.csv')
+    print(data['A'].mean())
+
+except:
+    pass
