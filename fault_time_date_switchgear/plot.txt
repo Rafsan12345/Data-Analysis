@@ -1,0 +1,9 @@
+import pandas
+import matplotlib.pyplot as plt
+from sklearn.linear_model import LinearRegression
+data = pandas.read_csv('SW1.csv')
+plt.step(data['date'], data['number'])
+plt.xlabel('date')
+plt.ylabel('number')
+plt.show()
+#version,price

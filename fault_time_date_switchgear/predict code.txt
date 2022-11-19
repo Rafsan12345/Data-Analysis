@@ -1,0 +1,12 @@
+import pandas
+import matplotlib.pyplot as plt
+from sklearn.linear_model import LinearRegression
+data = pandas.read_csv('SW1.csv')
+
+#prediction Section
+model = LinearRegression()
+model.fit(data[['date']], data[['time']]) #date,number,time
+print(model.predict([[18]])) #when  time will 12sec predict temperature >> 28.88444444
+#prediction Section
+
+#version,price
