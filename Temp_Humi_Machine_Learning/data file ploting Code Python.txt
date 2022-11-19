@@ -1,0 +1,11 @@
+import pandas
+import matplotlib.pyplot as plt
+from sklearn.linear_model import LinearRegression
+data = pandas.read_csv('data.csv')
+#plt.scatter(data['Temperature'], data['Humidity'])
+#plt.bar(data['Temperature'], data['Humidity'])
+#plt.plot(data['Temperature'], data['Humidity'])
+plt.step(data['Temperature'], data['Humidity'])
+plt.xlabel('Temperature')
+plt.ylabel('Humidity')
+plt.show()
