@@ -1,9 +1,0 @@
-import pandas
-import matplotlib.pyplot as plt
-from sklearn.linear_model import LinearRegression
-data = pandas.read_csv('EE.csv')
-#plt.scatter(data['A'], data['B'])
-#plt.bar(data['A'], data['B'])
-#plt.plot(data['A'], data['B'])
-#plt.step(data['A'], data['B'])
-plt.show()
