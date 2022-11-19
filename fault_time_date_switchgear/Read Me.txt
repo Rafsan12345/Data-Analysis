@@ -1,0 +1,3 @@
+date = fault date 
+number = number of fault in day 
+time = fault time 
